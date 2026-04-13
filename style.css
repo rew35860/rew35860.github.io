@@ -20,6 +20,16 @@ a:hover {
   text-decoration: underline;
 }
 
+.award {
+  color: #c28b00;   /* gold-ish */
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.4;
+  margin: 0.5em 0;
+}
+
 h1, h2, h3 {
   font-weight: normal;
   color: #111;
@@ -117,7 +127,7 @@ h1, h2, h3 {
 }
 
 .news_item {
-  padding-bottom: 20px;
+  padding-bottom: 8px;
   padding-left: 5px;
   text-align: left;
 }
