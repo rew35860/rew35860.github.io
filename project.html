@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Projects by Natcha Jengjirapas">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects - Natcha Jengjirapas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="section">
+    <div class="row">
+      <div class="content full">
+        <h1>Projects</h1>
+        <p><a href="index.html">← Back to Home</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="g1">
+    <div class="title"><span>Imitation Learning for Humanoid Robot G1 Manipulation</span></div>
+    <div class="row row_paper">
+      <div class="image">
+        <img src="images/g1-project.jpg" alt="G1 project image">
+      </div>
+      <div class="content paper">
+        <div class="conference">ETH Robotics Club HACK2026, Mar 2026</div>
+        <p>
+          This project focused on building a humanoid manipulation pipeline under a 48-hour
+          hackathon setting. We used teleoperation, LeRobot, and an ACT policy for manipulation,
+          and adapted NVIDIA GR00T Whole-Body Control for locomotion.
+        </p>
+        <p>
+          We collected about 1.5 hours of data across roughly 200 episodes and trained a grasping
+          policy within hours. The final system generalized from a single training object to
+          objects with different sizes and appearances.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="panda">
+    <div class="title"><span>High-Frequency Trajectory Tracking for Franka Emika Panda</span></div>
+    <div class="row row_paper">
+      <div class="image">
+        <img src="images/panda-project.jpg" alt="Panda project image">
+      </div>
+      <div class="content paper">
+        <div class="conference">Personal Project, Feb 2026</div>
+        <p>
+          I developed a reinforcement learning pipeline in MuJoCo using PPO to enable a 7-DoF
+          Franka Emika Panda robot to track high-frequency figure-8 trajectories.
+        </p>
+        <p>
+          The project focused on generalization across varied trajectory dimensions and offsets,
+          and also analyzed the mechanical limits of the learned policy to identify safe operating regions.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="ramp">
+    <div class="title"><span>Reproducibility Study of RL-Based Ramp Metering</span></div>
+    <div class="row row_paper">
+      <div class="image">
+        <img src="images/ramp-metering.jpg" alt="Ramp metering project image">
+      </div>
+      <div class="content paper">
+        <div class="conference">Semester Project at ETH Zürich, Oct 2025 - Dec 2025</div>
+        <p>
+          I implemented ACTM and METANET traffic simulators from scratch in Python and integrated
+          them with custom Q-learning, MPC, and Stable-Baselines3 actor-critic methods.
+        </p>
+        <p>
+          The project emphasized reproducibility, transparent experimentation, and open-source
+          documentation, with training runs up to 600,000 episodes and strong performance improvements.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
