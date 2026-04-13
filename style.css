@@ -195,6 +195,10 @@ h1, h2, h3 {
   width: 100%;
 }
 
+footer {
+  height: 60px;
+}
+
 @media (max-width: 600px) {
   .row > div {
     float: none;
