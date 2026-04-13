@@ -57,9 +57,7 @@ h1, h2, h3 {
   clear: both;
 }
 
-.section .content > p:first-child,
-.section .content > .news_item:first-child,
-.section .content > .paper-title:first-child {
+.section .content > *:first-child {
   margin-top: 0;
 }
 
