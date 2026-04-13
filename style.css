@@ -1,0 +1,180 @@
+body {
+  padding-top: 30px;
+  background-color: #fff;
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #1a1a1a;
+  font-size: 11pt;
+  line-height: 1.8em;
+  text-align: justify;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #0b51c5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: #111;
+}
+
+.section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section > .title {
+  font-size: 18pt;
+  color: #414446;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.section > .title > span {
+  border-bottom: 2px solid #999;
+  padding-bottom: 0.1em;
+  padding-right: 15px;
+}
+
+.section > .row {
+  clear: both;
+}
+
+.section .content {
+  margin-bottom: 2em;
+}
+
+.section .image img {
+  width: 100%;
+}
+
+#profile-photo img {
+  border-radius: 24px;
+}
+
+.row_paper {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.paper-title {
+  font-weight: bold;
+  padding-top: 2.5%;
+  font-size: 12pt;
+  color: #818181;
+}
+
+.paper-title a {
+  color: #000;
+}
+
+.paper-title a:hover {
+  color: #777;
+}
+
+.paper .links {
+  text-align: left;
+  margin-top: 14px;
+}
+
+.paper .links a:first-child {
+  margin-left: 0;
+}
+
+.paper .links a {
+  display: inline-block;
+  min-width: 78px;
+  margin-right: 6px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 2px 8px;
+  background-color: #0081af;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.paper .links a[data-type="Project page"] {
+  background-color: #f0ad4e;
+  min-width: 110px;
+}
+
+.paper .authors {
+  color: #333;
+}
+
+.paper .conference {
+  font-size: 11pt;
+  padding-bottom: 10px;
+  color: #444;
+}
+
+.news_item {
+  padding-bottom: 20px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.news-date {
+  font-weight: bold;
+}
+
+.news-text {
+  color: #1a1a1a;
+  padding-left: 5px;
+}
+
+.icon-links {
+  margin-top: 18px;
+}
+
+.icon-links a {
+  margin-right: 16px;
+}
+
+.full {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .row > div {
+    float: none;
+  }
+
+  .section .content {
+    width: 92%;
+    margin: 0 auto 2em auto;
+  }
+
+  .section .image {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto 1.5em auto;
+  }
+}
+
+@media (min-width: 601px) {
+  .row > div {
+    float: left;
+  }
+
+  .section .content {
+    width: 70%;
+  }
+
+  .section .content.full {
+    width: 100%;
+  }
+
+  .section .image {
+    width: 25%;
+    padding: 2.5%;
+  }
+}
