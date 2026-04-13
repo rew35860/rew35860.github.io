@@ -136,7 +136,7 @@ h1, h2, h3 {
   margin-bottom: 10px;
   border-radius: 5px;
   padding: 2px 8px;
-  background-color: #0081af;
+  background-color: #79b8f4;
   color: white;
   font-weight: bold;
   text-align: center;
@@ -240,12 +240,13 @@ h1, h2, h3 {
   }
 
   /* special layout only for the top intro photo */
-  .row:has(#profile-photo) {
+  #intro-row {
     display: flex;
     align-items: center;
   }
 
   #profile-photo {
+    float: none;
     width: 30%;
     margin-right: 5%;
     padding: 0;
@@ -253,6 +254,7 @@ h1, h2, h3 {
   }
 
   #profile-photo + .content {
+    float: none;
     width: 65%;
   }
 }
