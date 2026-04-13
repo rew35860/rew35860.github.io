@@ -1,6 +1,6 @@
 body {
   padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   background-color: #fff;
   font-family: "Georgia", "Times New Roman", serif;
   color: #1a1a1a;
@@ -39,6 +39,7 @@ h1, h2, h3 {
 .section {
   max-width: 900px;
   margin: 0 auto 70px auto;   /* controls spacing between sections */
+  margin-bottom: 10px;
 }
 
 .section > .title {
