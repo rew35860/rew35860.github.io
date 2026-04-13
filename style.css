@@ -37,14 +37,14 @@ h1, h2, h3 {
 
 .section {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto 40px auto;   /* controls spacing between sections */
 }
 
 .section > .title {
   font-size: 18pt;
   color: #414446;
   clear: both;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .section > .title > span {
@@ -58,7 +58,7 @@ h1, h2, h3 {
 }
 
 .section .content {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .section .image {
@@ -94,7 +94,7 @@ h1, h2, h3 {
 }
 
 .row_paper {
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .paper-title {
@@ -109,7 +109,7 @@ h1, h2, h3 {
 }
 
 .paper-title a:hover {
-  color: #777;
+  color: #f8b35e;
 }
 
 .paper .links {
@@ -172,7 +172,7 @@ h1, h2, h3 {
 }
 
 .icon-links a {
-  font-size: 28px;
+  font-size: 25px;
   margin-right: 18px;
   transition: 0.2s;
 }
