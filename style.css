@@ -26,8 +26,8 @@ a:hover {
 }
 
 p {
-  line-height: 1.4;
-  margin: 0.5em 0;
+  line-height: 1.5;
+  margin: 1.5em 0;
 }
 
 h1, h2, h3 {
@@ -63,10 +63,12 @@ h1, h2, h3 {
 
 .section .image img {
   width: 100%;
+  border-radius: 24px;
 }
 
 #profile-photo img {
   border-radius: 24px;
+  margin-right: 28px;
 }
 
 .row_paper {
@@ -127,7 +129,7 @@ h1, h2, h3 {
 }
 
 .news_item {
-  padding-bottom: 8px;
+  padding-bottom: 5px;
   padding-left: 5px;
   text-align: left;
 }
